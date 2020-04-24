@@ -8,26 +8,5 @@
         <members>Bicycle__c</members>
         <name>CustomObject</name>
     </types>
-    <types>
-        <members>Update_Bicycle_Type</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>Bicycle__c-Bicycle Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>Admin</members>
-        <members>ContractManager</members>
-        <members>ReadOnly</members>
-        <members>SolutionManager</members>
-        <members>Standard</members>
-        <members>System Admin</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>Bicycle__c</members>
-        <name>SharingRules</name>
-    </types>
     <version>48.0</version>
 </Package>
