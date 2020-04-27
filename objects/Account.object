@@ -254,15 +254,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Field_to_Delete__c</fullName>
-        <defaultValue>false</defaultValue>
-        <description>We will delete this field using a destructive change</description>
-        <externalId>false</externalId>
-        <label>Field to Delete</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>Industry</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
