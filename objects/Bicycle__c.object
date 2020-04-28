@@ -143,6 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Description I will be rolling back.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -175,14 +176,20 @@
                     <label>Mountain</label>
                 </value>
                 <value>
-                    <fullName>Road</fullName>
-                    <default>false</default>
-                    <label>Road</label>
-                </value>
-                <value>
                     <fullName>Tandem</fullName>
                     <default>false</default>
                     <label>Tandem</label>
+                </value>
+                <value>
+                    <fullName>Street</fullName>
+                    <default>false</default>
+                    <label>Street</label>
+                </value>
+                <value>
+                    <fullName>Road</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Road</label>
                 </value>
             </valueSetDefinition>
         </valueSet>

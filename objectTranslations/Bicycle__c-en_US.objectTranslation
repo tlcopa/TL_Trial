@@ -20,8 +20,8 @@
             <translation><!-- Mountain --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Road</masterLabel>
-            <translation><!-- Road --></translation>
+            <masterLabel>Street</masterLabel>
+            <translation><!-- Street --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Tandem</masterLabel>
