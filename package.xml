@@ -7,6 +7,10 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Car__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
         <members>Update_Car_Type</members>
         <name>Flow</name>
     </types>
