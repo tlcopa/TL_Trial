@@ -3109,6 +3109,21 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Car__c.Build_Complete__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Car__c.Price__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Car__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.AccountId</field>
         <readable>true</readable>
@@ -9387,6 +9402,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CampaignMember-Campaign Member Page Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Car__c-Car Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Case Layout</layout>
