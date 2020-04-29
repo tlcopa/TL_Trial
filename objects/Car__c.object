@@ -206,6 +206,45 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>Vehicle_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Compact</fullName>
+                    <default>false</default>
+                    <label>Compact</label>
+                </value>
+                <value>
+                    <fullName>Coupe</fullName>
+                    <default>false</default>
+                    <label>Coupe</label>
+                </value>
+                <value>
+                    <fullName>Sedan</fullName>
+                    <default>false</default>
+                    <label>Sedan</label>
+                </value>
+                <value>
+                    <fullName>SUV</fullName>
+                    <default>false</default>
+                    <label>SUV</label>
+                </value>
+                <value>
+                    <fullName>Full Size SUV</fullName>
+                    <default>false</default>
+                    <label>Full Size SUV</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <label>Car</label>
     <nameField>
         <label>Car Name</label>
