@@ -162,6 +162,14 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Price__c</fullName>
         <externalId>false</externalId>
         <label>Price</label>
