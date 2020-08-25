@@ -143,7 +143,6 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Description I will be rolling back.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -154,52 +153,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Type</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>BMX</fullName>
-                    <default>false</default>
-                    <label>BMX</label>
-                </value>
-                <value>
-                    <fullName>Mountain</fullName>
-                    <default>false</default>
-                    <label>Mountain</label>
-                </value>
-                <value>
-                    <fullName>Tandem</fullName>
-                    <default>false</default>
-                    <label>Tandem</label>
-                </value>
-                <value>
-                    <fullName>Street</fullName>
-                    <default>false</default>
-                    <label>Street</label>
-                </value>
-                <value>
-                    <fullName>Road</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Road</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <label>Bicycle</label>
+    <label>Truck</label>
     <nameField>
-        <label>Bicycle Name</label>
+        <label>Truck Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Bicycles</pluralLabel>
+    <pluralLabel>Trucks</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

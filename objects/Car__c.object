@@ -143,7 +143,6 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Description I will be rolling back.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -154,6 +153,33 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Build_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Build Complete</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Price</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
     <fields>
         <fullName>Type__c</fullName>
         <externalId>false</externalId>
@@ -166,40 +192,34 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>BMX</fullName>
+                    <fullName>Gasoline</fullName>
                     <default>false</default>
-                    <label>BMX</label>
+                    <label>Gasoline</label>
                 </value>
                 <value>
-                    <fullName>Mountain</fullName>
+                    <fullName>Diesel</fullName>
                     <default>false</default>
-                    <label>Mountain</label>
+                    <label>Diesel</label>
                 </value>
                 <value>
-                    <fullName>Tandem</fullName>
+                    <fullName>Hybrid</fullName>
                     <default>false</default>
-                    <label>Tandem</label>
+                    <label>Hybrid</label>
                 </value>
                 <value>
-                    <fullName>Street</fullName>
+                    <fullName>Electric</fullName>
                     <default>false</default>
-                    <label>Street</label>
-                </value>
-                <value>
-                    <fullName>Road</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Road</label>
+                    <label>Electric</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <label>Bicycle</label>
+    <label>Car</label>
     <nameField>
-        <label>Bicycle Name</label>
+        <label>Car Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Bicycles</pluralLabel>
+    <pluralLabel>Cars</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
